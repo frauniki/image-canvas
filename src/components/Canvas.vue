@@ -65,7 +65,7 @@ export default {
           height: 100,
           scaleX: 1,
           scaleY: 1,
-          name,
+          name: name.replace(" ", ""),
           draggable: true,
         });
       };
